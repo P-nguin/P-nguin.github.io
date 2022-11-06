@@ -1,0 +1,44 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-toolbar {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.personal-icon {
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.personal-icon:hover {
+    opacity: 0.9;
+}
+
+.website-name {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.website-name:hover {
+    color: #000000;
+}
+
+.right-toolbar {
+    display: flex;
+    background-color: coral;
+}
