@@ -12,18 +12,48 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/introduction.css">
 </head>
-<body style="
-    height: 50000px;
-    margin: 0px 0px 0px 0px;
-">
+<body class="page">    
+    <div class="toolbar">
+        <div class="toolbarOption" type="button" onclick="location.href='index.html'">
+            <p class="toolbarText"> About Me</p>
+        </div>
+        <div class="toolbarOption" type="button">
+            <p class="toolbarText"> Projects</p>
+        </div>
+        <div class="toolbarOption" type="button">
+            <p class="toolbarText"> Miscellaneous</p>
+        </div>
+    </div>
+
+    <div class="aboutMe">
+        <div class="introWelcomeGrid">
+            <div>
+                <div>
+                    <div class="introNameItem">
+                        <p class="introNameText">Daniel Zhao</p>
+                    </div>
+                    <div class>
+                        <p class="introWelcome">Welcome!</p>
+                    </div>   
+                    <div class="introWelcomeText">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, distinctio fugit iusto, aperiam laborum quos dignissimos, quis consectetur modi neque nisi. Illum est ratione quasi fugit omnis laudantium dolorem maxime?
+                        </p>
+                    </div>       
+                </div>
+            </div>
+            <div class="introductionContainer">
+                <img src="/img/introductionPicture.jpg" alt="Daniel Zhao" class="introductionImage" id="introImg">
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+
     <div class="landingPageVideoContainer">
         <video class="landingPageVideo" id="videoLandingPage" autoplay="autoplay" loop="loop" muted>
-            <source src="\videos\trainBackground.mp4">
+            <source src="\videos\backgroundLandingPage.mp4">
         </video>
-        <div class="helloText"> Hello </div>
-    </div>
-    <div class="toolbar">
-        
     </div>
 
     <script src="/js/index.js"></script>
