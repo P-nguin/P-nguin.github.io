@@ -1,9 +1,15 @@
 .page { 
-    height: 50000px; 
+    height: 5000px; 
     margin: 0px 0px 0px 0px; 
  
     background-color: #2c3523; 
 } 
+
+.landingPageResponsive {
+    border-style: solid;
+    border-color: #806517;
+    border-width: 2px;
+}
 
 .landingPageVideoContainer { 
     display: flex; 
