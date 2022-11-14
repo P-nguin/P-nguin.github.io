@@ -6,6 +6,10 @@
     font-display: swap;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     font-family: Inconsolata;
     color: #153462;
